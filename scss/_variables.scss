@@ -1,0 +1,7 @@
+$colors(
+    primary: #00B8D4
+);
+@function color($color-name) {
+ @return map-het($colors, $color-name)
+}
+$padding: 1.3rem;

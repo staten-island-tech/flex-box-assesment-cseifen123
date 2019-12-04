@@ -7,8 +7,8 @@ html{
 
 // put in box model beginning
 
-
-@import "./header";
+// @import"./header";
+// @import "./_variables.scss"
 
 
 //  $colors:(
@@ -35,23 +35,29 @@ html{
     height: 100vh;
     background-color: #81D4FA;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+   
 }
 
 .flex-child{
-    height: 20vh;
-    background-color:blue;
+    height: 50vh;
+    background-color: #01579B;
     margin: 10px;
+    text-align: center;
 
 }
 
 #flex-grow{
-    flex-grow: 1;
     display: flex;
+    width: 20rem;
+    text-align: center;
 
 }
+
 #flex-grow-2{
-    flex-grow: 2;
+    width: 20rem;
+    text-align: center;
+
 }
 
 
