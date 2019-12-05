@@ -35,29 +35,39 @@ html{
     height: 100vh;
     background-color: #81D4FA;
     display: flex;
-    flex-direction: column;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
    
 }
 
 .flex-child{
+    // height: 50vh;
+    // width: 50vh;
+    // background-color: #01579B;
+    // margin: 70px;
+    // text-align: center;
+    background: pink;
+    border: 3px solid rgba(0,0,0,.2);
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
     height: 50vh;
-    background-color: #01579B;
-    margin: 10px;
-    text-align: center;
+    width: 50vh;
+    margin: 10rem;
 
 }
 
-#flex-grow{
-    display: flex;
-    width: 20rem;
-    text-align: center;
-
+#block1{
+    // display: flex;
+    flex-grow: 1;
+    
 }
 
-#flex-grow-2{
-    width: 20rem;
-    text-align: center;
-
+#block2{
+   flex-grow: 1;
 }
 
 
