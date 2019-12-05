@@ -7,8 +7,8 @@ html{
 
 // put in box model beginning
 
-// @import"./header";
-// @import "./_variables.scss"
+// @import"./_header.scss";
+// @import "./_variables,scss";
 
 
 //  $colors:(
@@ -33,11 +33,11 @@ html{
 // what the flexbox, 
 .flex-parent{
     height: 100vh;
-    background-color: #81D4FA;
+    background-color: #6200EE;
     display: flex;
     flex-direction: row ;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
    
 }
 
@@ -47,7 +47,7 @@ html{
     // background-color: #01579B;
     // margin: 70px;
     // text-align: center;
-    background: pink;
+    background:#3700B3;
     border: 3px solid rgba(0,0,0,.2);
     line-height: 100px;
     color: white;

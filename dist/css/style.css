@@ -6,7 +6,7 @@ html {
 
 .flex-parent {
   height: 100vh;
-  background-color: #81D4FA;
+  background-color: #6200EE;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,13 +17,12 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .flex-child {
-  background: pink;
+  background: #3700B3;
   border: 3px solid rgba(0, 0, 0, 0.2);
   line-height: 100px;
   color: white;
