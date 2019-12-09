@@ -115,43 +115,6 @@ img {
           flex: 1;
 }
 
-/*
-ntainer1{
-    display: flex;
-    flex-direction: row ;
-    flex: 1;
-}
-
-.flex-parent2 div{
-    flex: 1;
-}
-
-.flex-parent2 img{
-    flex: 1;
-}
-
-
-.container { 
-    display: flex;
-    }
-  .red {
-    background: orangered;
-    display: flex;
-    flex-direction: column;
-  }
-  .green {
-    background: yellowgreen;
-  }
-  .blue {
-    background: steelblue;
-  }
-  .container div {
-    font-size: 5vw;
-    padding: .5em;
-    color: white;
-    flex: 1;
-  }
-*/
 /*.contact{
 
     @extend header;
