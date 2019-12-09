@@ -1,51 +1,25 @@
-html{
+ html{
     margin: 0;
     padding: 0;
     font-size: 62.5%;
 }
-
-
-// put in box model beginning
-
-// @import"./_header.scss";
-// @import "./_variables,scss";
-
-
-//  $colors:(
-//     primary: #81D4FA
-// );
-
-
-// @function color($color-name){
-//     @return map-get($colors, $color-name);
-// }
-
-
-// // body{
-// //     background-color: red;
-// // }
-// // // material design
-
-
-// $padding: 1.5rem;
-
-// flex mdn
-// what the flexbox, 
+ 
 .flex-parent{
     height: 100vh;
     background-color: #6200EE;
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
 }
 
+
+
 .flex-child{
-    // height: 50vh;
-    // width: 50vh;
-    // background-color: #01579B;
-    // margin: 70px;
-    // text-align: center;
+    /*height: 50vh;
+    width: 50vh;
+    background-color: #01579B;
+    margin: 70px;
+    text-align: center;*/
     background:#3700B3;
     border: 3px solid rgba(0,0,0,.2);
     line-height: 100px;
@@ -56,24 +30,32 @@ html{
     height: 90vh;
     width: 50%;
     margin: 2rem;
-
 }
 
+
+
 #block1{
-    // display: flex;
+
+    /*display: flex;*/
     flex-grow: 1;
     border-radius: 8px;
     height: 30vh;
-    align-self: flex-end;
+    
+
 }
 
+
+
 img{
-    display: flex;
     border-radius: 8px;
-    // align-items: center;
-    // height: 50vh;
-    // width: 70vh;
+    height: 5vh;
+    width: 5vh;
+   /* align-items: center;
+    height: 50vh;
+    width: 70vh;*/
 }
+
+
 
 #block2{
    height: 10vh;
@@ -87,17 +69,34 @@ img{
     height: 10vh;
 }
 
-.flex-parent2{
+.flex-parent3{
     height: 100vh;
     background-color: #6200EE;
     display: flex;
-    flex-direction: row ;
-    align-items: center;
-    justify-content: space-around;
     margin-block-start: 10px;
     margin-block-end: 10px;
 }
+.flex-parent2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100vh;
+}
 
-// .contact{
-//     @extend header;
-// }
+.flex-parent2 div{
+    flex: 1;
+}
+
+.flex-parent2 img{
+    flex: 1;
+}
+
+
+
+
+
+/*.contact{
+
+    @extend header;
+
+}*/
