@@ -3,24 +3,17 @@
     padding: 0;
     font-size: 62.5%;
 }
- 
 .flex-parent{
     height: 100vh;
     background-color: #6200EE;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-block-end: 5vh;
+
 }
-
-
-
-
 .flex-child{
-    /*height: 50vh;
-    width: 50vh;
-    background-color: #01579B;
-    margin: 70px;
-    text-align: center;*/
     background:#3700B3;
     border: 3px solid rgba(0,0,0,.2);
     line-height: 100px;
@@ -28,79 +21,43 @@
     font-weight: bold;
     font-size: 2em;
     text-align: center;
-    height: 90vh;
-    width: 50%;
+    // height: 10vh;
     margin: 2rem;
+    flex:1;
 }
-
-
-
-#block1{
-
-    /*display: flex;*/
-    flex-grow: 1;
-    border-radius: 8px;
+ header{
+     color: goldenrod;
+     font-size: 10vh;
+     font-family: 'Abril Fatface', cursive;
+     text-decoration: overline underline;
+     text-align: center;
+     text-transform: uppercase;
+     background-color: #3700B3;
+ }
+ 
+ .flex-child img{
+    max-width: 100%;
     height: 30vh;
-    
-
-}
-
-
-
-img{
-    border-radius: 8px;
-    height: 5vh;
-    width: 5vh;
-   /* align-items: center;
-    height: 50vh;
-    width: 70vh;*/
-}
-
-
-
-#block2{
-   height: 10vh;
-}
-
-#block3{
-    height: 10vh;
-}
-
-#block4{
-    height: 10vh;
-}
-
+    // height: auto;
+ }
 .flex-parent2{
-    height: 100vh;
-    background-color: #6200EE;
+    // height: 60vh;
+    background-color: red;
     display: flex;
-    margin-block-start: 10px;
-    flex-direction: column;
-    
+    flex-direction: column; 
+    flex: 1;  
+    padding: 3rem;
+    margin: 2rem;
 }
-
-.flex-child2{
-    background:#3700B3;
-    border: 3px solid rgba(0,0,0,.2);
-    line-height: 100px;
-    color: white;
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
-    height: 90vh;
-    width: 50%;
+.flex-parent3{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    background-color: green;
     margin: 2rem;
     flex:1;
 }
-.pic1{
-    flex:1;
-}
-.pic2{
-    flex:1;
-}
-.pic3{
-    flex:1;
-}
+
 
 
 /*.contact{
