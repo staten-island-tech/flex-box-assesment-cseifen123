@@ -1,10 +1,12 @@
-$colors: (
-    primary: #00B8D4
-);
-@function color($color-name) {
- @return map-get($colors, $color-name)
-}
-$padding: 1.3rem;
+$primary-color: #6200EE;
+
+/*functions
+$color2:a
+$font: a;
+$margin-size: a;
+$font-size: a;
+add fun facts and do variables
+sections*/
 
 
 
