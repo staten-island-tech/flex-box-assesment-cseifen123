@@ -1,10 +1,26 @@
+/* $primary-color: #3700B3;
+$color2:#3700B3;
+
+$font-color: ;
+
+$font-style:   font-family: 'Lilita One', cursive;
+$border-radius: 15px;
+
+@function color($color-name) {
+   @return map-get ($colors, $color-name);
+}
+ 
+
+
 /*functions
 $color2:a
+#######VARIABLES, HEADER
 $font: a;
 $margin-size: a;
 $font-size: a;
 add fun facts and do variables
-sections*/
+sections
+how can you adjust the size of it the picture in the div if the picture is too small */
 html {
   margin: 0;
   padding: 0;

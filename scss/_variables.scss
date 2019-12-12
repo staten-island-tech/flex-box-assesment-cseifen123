@@ -1,15 +1,20 @@
-$primary-color: #6200EE;
-$color2: #3700B3;
+/* $primary-color: #3700B3;
+$color2:#3700B3;
 
-$font-color: white;
+$font-color: ;
 
 $font-style:   font-family: 'Lilita One', cursive;
 $border-radius: 15px;
 
+@function color($color-name) {
+   @return map-get ($colors, $color-name);
+}
+ 
 
 
 /*functions
 $color2:a
+#######VARIABLES, HEADER
 $font: a;
 $margin-size: a;
 $font-size: a;
