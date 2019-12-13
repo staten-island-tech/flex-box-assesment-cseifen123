@@ -1,11 +1,4 @@
-/* $primary-color: #3700B3;
-$color2:#3700B3;
-
-$font-color: ;
-
-$font-style:   font-family: 'Lilita One', cursive;
-$border-radius: 15px;
-
+/*
 @function color($color-name) {
    @return map-get ($colors, $color-name);
 }
@@ -52,6 +45,16 @@ body {
   border-radius: 15px;
 }
 
+header {
+  color: white;
+  font-size: 8vh;
+  font-family: "Lilita One", cursive;
+  text-decoration: overline underline;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
 .flex-child {
   background: #3700B3;
   border: 3px solid black;
@@ -64,16 +67,6 @@ body {
       -ms-flex: 1;
           flex: 1;
   border-radius: 15px;
-}
-
-header {
-  color: white;
-  font-size: 8vh;
-  font-family: 'Lilita One', cursive;
-  text-decoration: overline underline;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 1rem;
 }
 
 .flex-child img {
@@ -102,7 +95,7 @@ header {
   text-align: center;
   color: white;
   font-size: 5em;
-  font-family: 'Lilita One', cursive;
+  font-family: "Lilita One", cursive;
   text-transform: uppercase;
 }
 
@@ -125,7 +118,7 @@ header {
   text-align: center;
   color: white;
   font-size: 2rem;
-  font-family: 'Lilita One', cursive;
+  font-family: "Lilita One", cursive;
 }
 
 .flex-child2 {
@@ -140,7 +133,7 @@ header {
       -ms-flex: 1;
           flex: 1;
   border-radius: 15px;
-  font-family: 'Lilita One', cursive;
+  font-family: "Lilita One", cursive;
 }
 
 .abc {

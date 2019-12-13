@@ -1,5 +1,5 @@
 @import "_variables.scss";
-@import "_header.scss"
+@import "_header.scss";
 
  html{
     margin: 0;
@@ -8,12 +8,12 @@
 }
 
 body{
-    background-color:#3700B3;
+    background-color: $primary-color;
 }
 
 .flex-parent{
     height: 120vh;
-    background-color: #6200EE;
+    background-color: $color2 ;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -24,9 +24,9 @@ body{
 }
 
 header{
-    color: white;
+    color:$font-color;
     font-size: 8vh;
-    font-family: 'Lilita One', cursive;
+    font-family: $font-style;
     text-decoration: overline underline;
     text-align: center;
     text-transform: uppercase;
@@ -34,17 +34,17 @@ header{
 }
 
 .flex-child{
-    background:#3700B3;
+    background: $primary-color ;
     border: 3px solid black;
     // line-height: 100px;
-    color:white;
+    color:$font-color;
     font-weight: bold;
     font-size: 2em;
     text-align: center;
-    // height: 10vh;
+    // height: 30vh;
     margin: 2rem;
     flex:1;
-    border-radius: 15px ;
+    border-radius: $border-radius ;
 }
 
 
@@ -54,53 +54,52 @@ header{
     height: auto;
     border-radius: 15px ;
     border: 3px solid black;
-
  }
 
 .flex-parent2{
     // height: 60vh;
-    background-color: #3700B3;
+    background-color: $primary-color;
     display: flex;
     flex-direction: column; 
     flex: 1;  
     padding: 3rem;
     margin: 2rem;
     border: 3px solid black;
-    border-radius: 15px;
+    border-radius: $border-radius;
     text-align: center;
-    color: white;
+    color: $font-color;
     font-size: 5em;
-    font-family: 'Lilita One', cursive;
+    font-family:$font-style;
     text-transform: uppercase;
 }
 .flex-parent3{
     height: 30vh;
     display: flex;
     flex-direction: row;
-    background-color: #6200EE;
+    background-color: $color2;
     margin: 2rem;
     flex:1;
     border: 3px solid black;
-    border-radius: 15px;
+    border-radius: $border-radius;
     text-align: center;
-    color: white;
+    color: $font-color;
     font-size: 2rem;
-    font-family: 'Lilita One', cursive;
+    font-family: $font-style;
 }
 
 .flex-child2{
-    background: #3700B3;
+    background: $primary-color;
     border: 3px solid black;
     // line-height: 100px;
-    color: white;
+    color: $font-color;
     font-size: 2rem;
     text-align: center;
     // height: 10vh; 
     margin: 2rem;
     padding: 2rem;
     flex:1;
-    border-radius: 15px;
-    font-family: 'Lilita One', cursive;
+    border-radius: $border-radius;
+    font-family: $font-style;
 }
 .abc{
     max-width: 30%;
