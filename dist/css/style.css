@@ -2,18 +2,7 @@
 @function color($color-name) {
    @return map-get ($colors, $color-name);
 }
- 
-
-
-/*functions
-$color2:a
-#######VARIABLES, HEADER
-$font: a;
-$margin-size: a;
-$font-size: a;
-add fun facts and do variables
-sections
-how can you adjust the size of it the picture in the div if the picture is too small */
+ */
 html {
   margin: 0;
   padding: 0;
@@ -142,5 +131,22 @@ header {
 
 .padding {
   padding: 2vh;
+}
+
+.width {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
