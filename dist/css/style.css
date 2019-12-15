@@ -14,7 +14,7 @@ body {
 }
 
 .flex-parent {
-  height: 120vh;
+  height: 70vw;
   background-color: #6200EE;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,41 +28,42 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-margin-after: 3vh;
-          margin-block-end: 3vh;
-  border: 3px solid black;
+  -webkit-margin-after: 1vw;
+          margin-block-end: 1vw;
+  border: .3vw solid black;
   border-radius: 15px;
 }
 
 header {
   color: white;
-  font-size: 8vh;
+  font-size: 5vw;
   font-family: "Lilita One", cursive;
   text-decoration: overline underline;
   text-align: center;
   text-transform: uppercase;
-  padding: 1rem;
+  padding: 1vw;
 }
 
 .flex-child {
   background: #3700B3;
-  border: 3px solid black;
+  border: .2vw solid black;
   color: white;
-  font-weight: bold;
-  font-size: 2em;
+  font-size: 2vw;
   text-align: center;
-  margin: 2rem;
+  margin: 2vw;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   border-radius: 15px;
+  padding: 1.5vw;
+  font-family: "Lilita One", cursive;
 }
 
 .flex-child img {
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
   border-radius: 15px;
-  border: 3px solid black;
+  border: .2vw solid black;
 }
 
 .flex-parent2 {
@@ -75,21 +76,21 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  padding: 3rem;
-  margin: 2rem;
-  border: 3px solid black;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 3vw;
+  margin: 2vw;
+  border: .3vw solid black;
   border-radius: 15px;
   text-align: center;
   color: white;
-  font-size: 5em;
+  font-size: 1vw;
   font-family: "Lilita One", cursive;
   text-transform: uppercase;
+  max-width: 100%;
 }
 
 .flex-parent3 {
-  height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,43 +99,44 @@ header {
       -ms-flex-direction: row;
           flex-direction: row;
   background-color: #6200EE;
-  margin: 2rem;
+  margin: 2vw;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  border: 3px solid black;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  border: .3vw solid black;
   border-radius: 15px;
   text-align: center;
   color: white;
-  font-size: 2rem;
+  font-size: 2vw;
   font-family: "Lilita One", cursive;
+  max-width: 100%;
 }
 
 .flex-child2 {
   background: #3700B3;
-  border: 3px solid black;
+  border: .3vw solid black;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5vw;
   text-align: center;
-  margin: 2rem;
-  padding: 2rem;
+  margin: 2vw;
+  padding: 2vw;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   border-radius: 15px;
   font-family: "Lilita One", cursive;
 }
 
-.abc {
+.box-size {
   max-width: 30%;
 }
 
-.padding {
-  padding: 2vh;
+.child2-color {
+  background-color: #6200EE;
 }
 
 .width {
-  height: 50vh;
+  min-height: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,5 +150,9 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.child2Font {
+  font-size: 3vw;
 }
 /*# sourceMappingURL=style.css.map */
